@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  position: relative;
+  background-color: #3B3D3E;
+}
+
+.leaflet-container {
+  width: 80%;
+  float: right;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  float: left;
+  color: white;
+  position: relative;
+}
+
+.custom-icon {
+  background: #292929;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 100%;
+}
+
+.download-btn {
+  background-color: #aae561;
+  border-radius: .25rem;
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px 10px;
+  margin: 5px;
+  border-bottom: 2px solid #60615E;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px;
+  font-weight: bold;
+  cursor: move;
+  line-height: 1.5;
+}
+
+li > img {
+  vertical-align: middle;
+}
+
+li > span {
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+li > button {
+  background-color: transparent;
+  cursor: pointer;
+  float: right;
+  border: 0;
+}
+
+button:focus {
+  outline:0;
+}
+/* waypoint trash can icon color #60615E */
+/* // node.style.borderBottom = "1px solid red"; */
