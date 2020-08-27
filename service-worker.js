@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gpx-route-creator/precache-manifest.e9f1e8fc38ba556987da10482fdb63a7.js"
+  "/gpx-route-creator/precache-manifest.c24f6ba15f975eef087d689d0b530c3b.js"
 );
 
 self.addEventListener('message', (event) => {
