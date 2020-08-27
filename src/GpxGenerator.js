@@ -31,7 +31,7 @@ const GpxGenerator = () => {
   
   const downloadGpxFile = () => {
     const xml = createXmlString()
-    const url = `data:text/jsoncharset=utf-8, ${xml}`
+    const url = `data:text/jsoncharset=utf-8,${xml}`
     const link = document.createElement('a')
     link.download = 'myRoute.gpx'
     link.href = url
