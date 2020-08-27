@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import MapContext from "./MapContext"
 import Waypoint from "./Waypoint"
 import GpxGenerator from "./GpxGenerator"
-import trashIcon from './assets/trash.png'
 
 const Sidebar = () => {
   const { markers, setMarkers } = useContext(MapContext)
@@ -43,19 +42,3 @@ const Sidebar = () => {
 }
 
 export default Sidebar
-
-
-
-
-// {markers.map((marker, index) => (
-//   <li key={index}>
-//     <span> Waypoint {index + 1} </span>
-//     <button onClick={() => deleteMarker(index)}>
-//       <img src={trashIcon} alt="Trash icon"></img>
-//     </button>
-//   </li>
-// ))}
-
-  {/* <button onClick={() => deleteMarker(index)}>
-                <img src={trashIcon} alt="Trash icon"></img>
-              </button> */}

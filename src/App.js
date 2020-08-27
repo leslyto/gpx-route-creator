@@ -13,10 +13,10 @@ const App = () => {
   return (
     <React.Fragment>
       <MapContext.Provider value={value}>
+        <MapLayout/>
         <DndProvider backend={HTML5Backend}>
           <Sidebar/>
         </DndProvider>
-        <MapLayout/>
       </MapContext.Provider>
     </React.Fragment>
   );
