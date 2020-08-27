@@ -5,7 +5,7 @@ const GpxGenerator = () => {
   const { markers, setMarkers } = useContext(MapContext)
 
   const createXmlString = () => {
-    let coordinates = markers.map((marker, index) => `<rtept lat="${marker[0]}" lon="${marker[1]}"><name>Waypoint ${index}</name></rtept>`)
+    let coordinates = markers.map((marker, index) => `<rtept lat="${marker[0]}" lon="${marker[1]}"><name>Waypoint ${index + 1}</name></rtept>`)
     var timestamp = new Date().toISOString()
 
     let result = 
