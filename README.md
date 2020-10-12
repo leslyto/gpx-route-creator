@@ -2,6 +2,7 @@
 
 This is a React based application which allows you to create a route by pinning markers on a map using OpenStreetMap + LeafletJS and export it as .gpx file.
 
+![screenshot](https://i.imgur.com/8iMdzz3.jpg)
 ---
 
 ## Getting Started
